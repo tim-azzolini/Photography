@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Tim Azzolini Photography</span>
+
+<!-- Header -->
+<div class="header" id="myHeader">
+    <h1> Home </h1>
+    <h4> <i> Featured Gallery </i></h4>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+</div>
+
+<!-- Nav Menu -->
+<link rel="stylesheet" type="text/css" href="Style_Nav.css" media="screen"/>
+</head>
+
+
+
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html"> Home</a>
+    <a href="places.html"> Places </a>
+    <a href="people.html"> People </a> <!-- need to add people page -->
+    <a href="moments.html"> Moments </a>
+    <a href="#"> About </a> <!-- need to make about page -->
+  </div>
+</div>
+
+
+<!-- Navigation -->
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+    
+
+<!-- Grid style -->
+<link rel="stylesheet" type="text/css" href="Style_Gallery.css" media="screen"/>
+
+<link rel="stylesheet" type="text/css" href="Style_Order.css" media="screen"/>
+
+<!-- Photo Grid -->
+
+<div class="row"> 
+  <div class="column">
+    <img src = website/featured/photo1.JPG class = "image">
+    <img src = website/featured/photo2.JPG class = "image">
+    <img src = website/featured/photo4.JPG class = "image">
+    <img src = website/featured/photo5.JPG class = "image">
+    <img src = website/featured/photo6.JPG class = "image">
+    <img src = website/featured/photo7.JPG class = "image">
+  </div>
+
+  <div class="column">
+    <img src = website/featured/photo8.JPG class = "image">
+    <img src = website/featured/photo9.JPG class = "image">
+    <img src = website/featured/photo10.JPG class = "image">
+    <img src = website/featured/photo11.JPG class = "image">
+    <img src = website/featured/photo12.JPG class = "image">
+    <img src = website/featured/photo13.JPG class = "image">
+    <img src = website/featured/photo14.JPG class = "image"> 
+  </div>
+
+   <div class="column">
+    <img src = website/featured/photo15.JPG class = "image">
+    <img src = website/featured/photo16.JPG class = "image">
+    <img src = website/featured/photo17.JPG class = "image">
+    <img src = website/featured/photo18.JPG class = "image">
+    <img src = website/featured/photo19.JPG class = "image">
+    <img src = website/featured/photo20.JPG class = "image">
+    <img src = website/featured/photo21.JPG class = "image">
+  </div>
+
+  <div class="column">
+    <img src = website/featured/photo22.JPG class = "image">
+    <img src = website/featured/photo23.JPG class = "image">
+    <img src = website/featured/photo24.JPG class = "image">
+    <img src = website/featured/photo25.JPG class = "image">
+    <img src = website/featured/photo26.JPG class = "image">
+    <img src = website/featured/photo27.JPG class = "image">
+  </div>
+</div>
+
+
+
+<script type = "text/javascript" src="Script_Gallery.js"></script>  
+
+</body>
+
+
+</html>
+
+
+
+

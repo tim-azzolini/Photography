@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Tim Azzolini Photography</span>
+
+<!-- Header -->
+<div class="header" id="myHeader">
+    <h4> <i> Places Gallery </i></h4>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+</div>
+
+<!-- Nav Menu -->
+<link rel="stylesheet" type="text/css" href="Style_Nav.css" media="screen"/>
+</head>
+
+
+
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html"> Home</a>
+    <a href="places.html"> Places </a>
+    <a href="people.html"> People </a> <!-- need to add people page -->
+    <a href="moments.html"> Moments </a>
+    <a href="#"> About </a> <!-- need to make about page -->
+  </div>
+</div>
+
+
+<!-- Navigation -->
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+    
+
+<!-- Grid style -->
+<link rel="stylesheet" type="text/css" href="Style_Gallery.css" media="screen"/>
+
+<link rel="stylesheet" type="text/css" href="Style_Order.css" media="screen"/>
+
+<!-- places Grid -->
+
+<div class="row"> 
+  <div class="column">
+    <img src = website/place/places1.JPG class = "image">
+    <img src = website/place/places2.JPG class = "image">
+    <img src = website/place/places4.JPG class = "image">
+    <img src = website/place/places5.JPG class = "image">
+    <img src = website/place/places6.JPG class = "image">
+    <img src = website/place/places7.JPG class = "image">
+  </div>
+
+  <div class="column">
+    <img src = website/place/places8.JPG class = "image">
+    <img src = website/place/places9.JPG class = "image">
+    <img src = website/place/places10.JPG class = "image">
+    <img src = website/place/places11.JPG class = "image">
+    <img src = website/place/places12.JPG class = "image">
+    <img src = website/place/places13.JPG class = "image">
+    <img src = website/place/places14.JPG class = "image"> 
+  </div>
+
+   <div class="column">
+    <img src = website/place/places15.JPG class = "image">
+    <img src = website/place/places16.JPG class = "image">
+    <img src = website/place/places17.JPG class = "image">
+    <img src = website/place/places18.JPG class = "image">
+    <img src = website/place/places19.JPG class = "image">
+    <img src = website/place/places20.JPG class = "image">
+    <img src = website/place/places21.JPG class = "image">
+  </div>
+
+  <div class="column">
+    <img src = website/place/places22.JPG class = "image">
+    <img src = website/place/places23.JPG class = "image">
+    <img src = website/place/places24.JPG class = "image">
+    <img src = website/place/places25.JPG class = "image">
+    <img src = website/place/places26.JPG class = "image">
+    <img src = website/place/places27.JPG class = "image">
+  </div>
+</div>
+
+
+
+<script type = "text/javascript" src="Script_Gallery.js"></script>  
+
+</body>
+
+
+</html>
+
+
+
+
